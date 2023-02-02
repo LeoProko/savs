@@ -1,0 +1,19 @@
+{
+    "cmake.configureOnOpen": false,
+
+    "cmake.generator": "Unix Makefiles",
+
+    "cmake.buildDirectory": "/home/leoproko/savs/build",
+
+    "C_Cpp.autocomplete": "Disabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+
+    "clangd.arguments": [
+            "--log=verbose",
+            "--pretty",
+            "--background-index",
+            "--compile-commands-dir=/home/leoproko/savs/build",
+            "--clang-tidy",
+    ]
+}

@@ -1,0 +1,9 @@
+port: 4433
+https:
+  certificate_path: /etc/letsencrypt/live/leoproko.com/fullchain.pem
+  private_key_path: /etc/letsencrypt/live/leoproko.com/privkey.pem
+paths:
+  /:
+    template: main.html
+  /index:
+    template: index.html
